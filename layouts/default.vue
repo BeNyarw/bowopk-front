@@ -1,6 +1,6 @@
 <template>
     <div class="page-container">
-    <md-app md-mode="reveal" class="lescouilles justify-center">
+    <md-app md-mode="reveal" class="app-main justify-center">
         <md-app-toolbar class="md-accent ">
         <md-button class="md-icon-button" @click="menuVisible = !menuVisible">
             <md-icon>menu</md-icon>
@@ -41,7 +41,9 @@
     },
   }
   </script>
-  <style>html,body, #__nuxt, #__layout,.page-container,.lescouilles{
+  <!--TODO : Nasty tweak to remove asap-->
+  <style>
+  html,body, #__nuxt, #__layout,.page-container,.app-main{
     height:100%!important;
     width: 100%!important;
   }
